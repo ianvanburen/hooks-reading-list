@@ -4,9 +4,9 @@ import { BookContext } from '../contexts/BookContext'
 const NavBar = () => {
   const { books } = useContext(BookContext)
   return (
-    <div> className='navbar'
+    <div className='navbar'>
       <h1>My Reading List</h1>
-      <p>Currently, you have { books.length } to read.</p>
+      <p>Currently, you have { books.length } books to read.</p>
     </div>
   )
 }
