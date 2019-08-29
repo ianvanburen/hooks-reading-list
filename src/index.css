@@ -7,12 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #1e3d66;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 .App {
   background: #152f51;
   margin: 20px auto;
@@ -31,8 +25,8 @@ code {
 }
 
 .book-list{
-  /* margin: 20px; */
-  padding: 5px 20px;
+  margin: 20px;
+  /* padding: 5px 20px; */
 }
 .book-list ul{
   padding: 0;
@@ -60,7 +54,33 @@ code {
   color: #ddd;
 }
 .empty{
-  /* margin: 20px; */
-  padding: 20px;
+  margin: 20px;
+  /* padding: 20px; */
   text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #10233b;
+  color: #fff;
+  border: 0;
+}
+input[type='submit']{
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+}
+:not(output):-moz-ui-invalid {
+  box-shadow: none;
+}
+:not(output):-moz-ui-invalid:-moz-focusring {
+  box-shadow: none;
 }
