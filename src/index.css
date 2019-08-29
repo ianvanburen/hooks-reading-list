@@ -14,7 +14,7 @@ code {
 }
 
 .App {
-  background: #1e3d66;
+  background: #152f51;
   margin: 20px auto;
   width: 90%;
   max-width: 700px;
@@ -25,8 +25,42 @@ code {
   text-align: center;
   background: #5b7699;
   border: 2px solid #ffe66d;
-  border-radius: 10px;
 }
 .navbar h1 {
   margin: 10px 0;
+}
+
+.book-list{
+  /* margin: 20px; */
+  padding: 5px 20px;
+}
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li{
+  background: #5b7699;
+  border: 1px solid #ffe66d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.book-list li:hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.book-list .title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author{
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty{
+  /* margin: 20px; */
+  padding: 20px;
+  text-align: center;
 }
