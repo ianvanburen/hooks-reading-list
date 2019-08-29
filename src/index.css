@@ -26,7 +26,6 @@ body {
 
 .book-list{
   margin: 20px;
-  /* padding: 5px 20px; */
 }
 .book-list ul{
   padding: 0;
@@ -55,7 +54,6 @@ body {
 }
 .empty{
   margin: 20px;
-  /* padding: 20px; */
   text-align: center;
 }
 
@@ -77,6 +75,13 @@ input[type='submit']{
   border: 0;
   padding: 6px 20px;
   display: block;
+  cursor: pointer;
+  transition: .1s ease;
+}
+input[type='submit']:hover {
+  background: #10233b;
+  color: #fff;
+  transition: .1s ease;
 }
 :not(output):-moz-ui-invalid {
   box-shadow: none;
